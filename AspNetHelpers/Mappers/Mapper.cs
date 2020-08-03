@@ -13,7 +13,7 @@ namespace AspNetHelpers.Mappers
         #region Public
 
         #region Member Methods
-        public TDto ToDto(TModel model)
+        public virtual TDto ToDto(TModel model)
         {
             var dtoType = typeof(TDto);
             var dtoProperties = dtoType.GetProperties();
@@ -35,7 +35,7 @@ namespace AspNetHelpers.Mappers
 
         public IEnumerable<TDto> ToDtos(IEnumerable<TModel> models) => models.Select(model => ToDto(model));
         
-        public TModel ToModel(TDto dto)
+        public virtual TModel ToModel(TDto dto)
         {
             var modelType = typeof(TModel);
             var modelProperties = modelType.GetProperties();
