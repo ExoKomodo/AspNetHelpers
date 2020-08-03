@@ -1,11 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using AspNetHelpers.Models;
-using Moq;
+using Tests.Models;
 using Xunit;
 
-namespace Tests.Models
+namespace Tests.Unit
 {
     public class MapperUnitTest
     {
