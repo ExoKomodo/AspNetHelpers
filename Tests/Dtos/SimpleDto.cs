@@ -1,7 +1,7 @@
 using System;
-using AspNetHelpers.Models;
+using AspNetHelpers.Dtos;
 
-namespace Tests.Models
+namespace Tests.Dtos
 {
     public class SimpleDto : Dto<Guid>
     {

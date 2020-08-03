@@ -1,5 +1,5 @@
-using System;
 using AspNetHelpers.Models;
+using System;
 
 namespace Tests.Models
 {

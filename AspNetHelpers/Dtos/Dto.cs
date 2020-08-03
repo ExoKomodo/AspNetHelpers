@@ -1,4 +1,4 @@
-namespace AspNetHelpers.Models
+namespace AspNetHelpers.Dtos
 {
     public abstract class Dto<TId>
     {

@@ -1,7 +1,7 @@
-using System.Linq;
-using System.Threading.Tasks;
 using AspNetHelpers.Models;
 using Microsoft.EntityFrameworkCore;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace AspNetHelpers.Database
 {

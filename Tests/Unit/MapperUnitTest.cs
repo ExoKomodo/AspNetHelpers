@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Tests.Dtos;
+using Tests.Mappers;
 using Tests.Models;
 using Xunit;
 

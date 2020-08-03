@@ -1,8 +1,10 @@
-using System;
+using AspNetHelpers.Dtos;
+using AspNetHelpers.Models;
 using System.Collections.Generic;
 using System.Linq;
+using System;
 
-namespace AspNetHelpers.Models
+namespace AspNetHelpers.Mappers
 {
     public abstract class Mapper<TId, TModel, TDto>
         where TModel : Model<TId>
